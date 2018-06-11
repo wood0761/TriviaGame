@@ -1,0 +1,45 @@
+body, html{
+height: 100%;
+margin: 0;
+}
+.bg{
+background-image: url("assets/images/gandalf_BW.jpg");
+height: 100%; 
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.jumbotron{
+    text-align: center;
+    background:transparent;
+    font-size: 50px;
+    color: #666;
+    text-shadow: 4px 4px 5px GOLD;
+}
+#startButton{
+    font-size: 30px;
+    height: 50px;
+    width: 160px;
+}
+.timerBox{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+}
+.container{
+    text-align: center;
+    background-color:white;
+    padding: 20px 100px 20px 100px;
+}
+
+button{
+    width: 300px;
+    transition-duration: 1s;
+}
+button:hover{
+    color: gold;
+}
+.emptyDiv{
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+        <title>Lord of the Rings Trivia!</title>
+    <!-- Viewport Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Link to Boostrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- link to css -->
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+
+   <style>
+   body, html{
+    height: 100%;
+    margin: 0;
+    }
+    .bg{
+    background-image: url("assets/images/gandalf_BW.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+   </style>
+  
+</head>
+<body>
+    <div class="bg">
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="header">
+            <h1 class="display-2">The Lord of the Rings Trivia!</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-5"></div>
+            <div class="col-md-2"><button id="startButton">Start!</button></div>
+        <div class="col-md-5"></div>
+    </div>
+    
+    <div class="timerBox">
+        20 Seconds
+    </div>
+
+    <div class="container" id="questionOne">
+        <div class="row" >
+            <div class="col-md-12">
+                What has roots as nobody sees,
+                Is taller than trees,
+                Up, up it goes,
+                And yet never grows?
+            <br>
+                <button class="incorrect qOne">A House</button>
+                <button class="correct qOne">A Mountain</button>
+                <button class="incorrect qOne">The Atmosphere </button>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="questionTwo">
+        <div class="row">
+            <div class="col-md-12">
+                Thirty white horses on a red hill,
+                First they champ,
+                Then they stamp,
+                Then they stand still.
+            <br>
+                <button class="incorrect qTwo">Horse Derby</button>
+                <button class="incorrect qTwo">Graveyard</button>
+                <button class="correct qTwo">Teeth</button>   
+            </div>
+        </div>
+    </div>
+    <div class="container" id="questionThree">
+        <div class="row">
+            <div class="col-md-12">
+                A box without hinges, key, or lid,
+                Yet golden treasure inside is hid.
+                <br>
+                <button class="incorrect qThree">Sealed Locket</button>
+                <button class="incorrect qThree">the Sun</button>
+                <button class="correct qThree ">An Egg</button>
+            </div>
+        </div>    
+    </div>
+
+    <div class="container" id="results">
+        <div class="row">
+            <div class="col-md-12">
+                results page
+                <button class="replay">Play Again?</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container emptyDiv"></div>
+        
+</div> <!-- background image -->
+
+
+<!--
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12"><h2 class="winsTally">Wins: </h2><h2 class="lossesTally">Losses:</h2></div>
+        </div>
+    </div>
+    <div class="container anyKey">
+        <div class="row">
+            <div class="col-lg-12">Press any key to start!</div>
+        </div>
+    </div>
+    <div class="container lose">
+        <div class="row">
+            <div class="col-lg-12"><h2>YOU LOSE</h2><button class="resetButton">play again?</button></div>
+        </div>
+    </div>
+    <div class="container win">
+        <div class="row">
+            <div class="col-lg-12"><h2>YOU WIN!</h2><button class="resetButton">play again?</button></div>
+        </div>
+    </div> -->
+
+    
+
+
+    <!-- Boostrap 4 links to jquery javascript and popper (whatever popper is) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <!-- link to JavaScript -->
+    <script src="assets/javascript/app.js"></script>
+</body>
